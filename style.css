@@ -129,3 +129,74 @@
 .nav-item a span{
     padding-left: 11px;
 }
+
+/* Content Section */
+.container{
+    max-width: 1150px;
+    min-width: 1150px;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 42px;
+    top: 80px;
+    background: white;
+    left: 0;
+}
+
+
+.container .item-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-bar .number{
+    font-weight: 600;
+    font-size: 28px;
+    color: #3d4152;
+    margin-top: -3px;
+
+}
+
+.item-bar::after{
+    color: #3d4152;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 81px;
+    height: 1px;
+    background: #e9e9eb;
+}
+
+.item-bar .filters{
+    display: flex;
+    align-items: center;
+}
+
+.filters div{
+    font-size: 15px;
+    font-weight: 100;
+    color: #686b78;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.filters div:hover{
+    border-bottom: 2px solid #282c3f;
+    color: #282c3f;
+    /* color: #3d4152;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 31px;
+    height: 1px;
+    background: #282c3f; */
+}
+
+/*Content Section*/
+.restaurant-list{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
