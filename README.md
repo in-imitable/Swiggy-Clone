@@ -9,7 +9,7 @@ The User/Customer can search for his/her location here & can find restaurants in
 # Footer Page
 The user can view restaurants of different categories here & can filter them according to his/her needs (Eg. By Pricing, By ratings, etc.)
 
-![alt text](https://github.com/in-imitable/Swiggy-Clone/blob/master/project_img/Screenshot%20(51).png)
+<!--![alt text](https://github.com/in-imitable/Swiggy-Clone/blob/master/project_img/Screenshot%20(51).png)-->
 
 ![alt text](https://github.com/in-imitable/Swiggy-Clone/blob/master/project_img/Screenshot%20(54).png)
 
